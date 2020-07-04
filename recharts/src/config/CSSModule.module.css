@@ -1,0 +1,58 @@
+.chart {
+  text-align: center;
+}
+
+.legendBox {
+  text-align: right;
+  padding: 10px;
+}
+
+.customTooltip {
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 0.5px solid gray;
+  padding: 5px;
+  padding-top: 1px;
+
+  background-color: #fff;
+  display: block;
+  z-index: 1030;
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: 1;
+  filter: alpha(opacity=0);
+  visibility: visible;
+}
+
+.toolTipKey {
+  text-align: left;
+  flex-grow: 2;
+}
+
+.toolTipValue {
+  text-align: right;
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  justify-content: space-between;
+}
+
+.tooltipData {
+  flex-grow: 1;
+}
+
+.colorBox {
+  float: left;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: white;
+}
